@@ -11,7 +11,7 @@ pipeline {
         stage('Unite Test') {
             steps {
                 echo 'mvn Testing..'
-                sh 'mvn testing'
+                sh 'mvn test'
             }
         }
         stage('Sonar Analysis') {
